@@ -44,9 +44,9 @@ def inputList():
 #     if check(x) == "even":
 #         print(x)
 
-# Name = "Le Thanh Tam"
-# for x in range(len(Name), 1, -1):
-#     print (Name[x], end="")
+Name = "Le Thanh Tam"
+for x in range(len(Name) - 1, -1, -1):
+    print (Name[x], end="")
         
 string = "SUPERCALIFRAGILISTICEXPIALIDOCIOUS-Pneumonoultramicroscopicsilicovolcanoconiosis"
 dict = {}
